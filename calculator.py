@@ -1,9 +1,9 @@
 import math
 
-def add(a, b):
+def add(a,b):
     return a + b
 
-def subtract(a, b):
+def subtract(a,b):
     return a - b
 
 def multiply(a, b):
@@ -17,7 +17,7 @@ def divide(a, b):
 def logarithm(a, b):
     if a <= 0 or a == 1 or b <= 0:
         raise ValueError("Invalid base or argument for logarithm")
-    return math.log(b, a)
+    return round(math.log(b, a), 2)
 
 def exponent(a, b):
     return a ** b
