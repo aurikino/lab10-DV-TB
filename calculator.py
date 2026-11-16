@@ -1,3 +1,6 @@
+# https://github.com/aurikino/lab10-DV-TB
+# Partner 1: Tyler Beckford
+# Partner 2: David Veizaj
 import math
 
 def add(a, b):
